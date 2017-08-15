@@ -3,7 +3,7 @@ title: Laboratório Gráfico Desviante
 
 # URL
 url: http://lgd.local
-baseurl: ''
+baseurl: 'lgd.local'
 permalink: :title/
 include: ['_pages']
 
