@@ -1,0 +1,67 @@
+# Site
+title: Laboratório Gráfico Desviante
+
+# URL
+url: http://lgd.local
+baseurl: ''
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4322
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "post"
+
+# Data
+social:
+  facebook_user: "facebookUserName"
+  twitter_user: "twitterUserName"
+
+# prose.io
+prose:
+  media: 'assets/pdfs'
+  ignore:
+    - .gitignore
+    - _config.yml
+    - _includes
+    - _layouts
+    - _pages/404.md
+    - _pages/index.md
+    - _sass
+    - css
+    - CNAME
+    - assets/favicons
+    - assets/covers
+  metadata:
+    _pages:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Título"
+          placeholder: "Colocar Aqui o Título Do Texto"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Autora"
+          placeholder: "Fulana de Tal"
+      - name: "pdf"
+        field:
+          element: "text"
+          label: "Nome do arquivo"
+          placeholder: "teste.pdf"

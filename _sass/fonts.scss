@@ -1,0 +1,83 @@
+$BACKGROUND-COLOR: rgba(255,255,255,1);
+
+$TEXT-BASE: rgba(0,0,0,1);
+$LINK-COLOR: lighten($TEXT-BASE, 20%);
+$TEXT-COLOR: lighten($TEXT-BASE, 30%);
+
+$TRANSITION-PERIOD: 0.1s;
+$RESPONSIVE-SPACING: 2vw;
+
+$MAX-WIDTH: 640px;
+
+$FAMILY-SANS: 'Raleway', 'Arial';
+
+$TITLE-SIZE: 1.1rem;
+$TEXT-SIZE: 1rem;
+$LINK-SIZE: 1rem;
+
+$BOLD-WEIGHT: 700;
+$NORMAL-WEIGHT: 400;
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+
+  @media only screen and (min-width: $MAX-WIDTH) {
+    font-size: 22px;
+  }
+}
+
+body {
+  font: $NORMAL-WEIGHT $TEXT-SIZE $FAMILY-SANS;
+  word-spacing: 3px;
+  color: $TEXT-COLOR;
+}
+
+strong {
+  font-weight: $BOLD-WEIGHT;
+}
+
+em {
+  font-style: italic;
+}
+
+s {
+  text-decoration:line-through;
+}
+
+a {
+  font: $BOLD-WEIGHT $LINK-SIZE $FAMILY-SANS;
+  color: $LINK-COLOR;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color $TRANSITION-PERIOD linear;
+
+  &:visited {
+    color: $LINK-COLOR;
+  }
+
+  &:hover {
+    box-shadow: 8px 8px 32px $TEXT-COLOR;
+    border-radius: 8px;
+  }
+}
+
+.menu-item {
+  font-size: $TITLE-SIZE;
+  font-weight: $NORMAL-WEIGHT;
+  color: $LINK-COLOR;
+  text-transform: none;
+}
+
+.menu-title {
+  font-weight: $BOLD-WEIGHT;
+}
+
+.post-title {
+  font: bold $TITLE-SIZE $FAMILY-SANS;
+  color: $LINK-COLOR;
+  text-transform: uppercase;
+  text-align: center;
+}
