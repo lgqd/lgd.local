@@ -2,7 +2,7 @@
 title: Laboratório Gráfico Desviante
 permalink: '/'
 ---
-<img id="home-image" class="home-click" src="{{ site.baseurl}}assets/covers/LGD_Freud.gif" onclick="show('text')">
+<img id="home-image" class="home-click" src="{{ site.baseurl}}/assets/covers/LGD_Freud.gif" onclick="show('text')">
 
 <div id="home-text" class="home-click" markdown="1" style="display: none;" onclick="show('image')">
   **vandalism**  
