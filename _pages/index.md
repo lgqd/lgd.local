@@ -5,8 +5,8 @@ permalink: '/'
 <img id="home-image" class="home-click" src="{{ site.baseurl}}/assets/covers/LGD_Freud.gif" onclick="show('text')">
 
 <div id="home-text" class="home-click" markdown="1" style="display: none;" onclick="show('image')">
-  **vandalism**  
-  van.dal.ism (noun) **1** Action involving deliberate destruction of or damage to public or private property. **2** Willful or ignorant destruction of artistic or literary treasures.
+  **Laboratório Gráfico Desviante (LGD)**  
+  é um grupo composto por diferentes profissionais que combinam artes visuais, escrita, dança, design gráfico e programação, cujas pesquisas envolvem o questionamento dessas linguagens a partir de suas normatizações e cânones. O objetivo do LGD não é negar as estruturas problematizadas com a intenção de gerar novos cânones, mas discutir e compreender os sistemas de cada linguagem e os possíveis níveis de desconstruções, infiltrações e hackeamentos.
 </div>
 
 
