@@ -10,7 +10,10 @@ permalink: '/'
 </div>
 
 
+{% comment %}
 <div class="menu-item menu-title">Textos</div>
+{% endcomment %}
+
 <div class="text-list">
 {% for page in site.pages %}
   {% if page.pdf %}
