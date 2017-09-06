@@ -2,6 +2,7 @@ $BACKGROUND-COLOR: rgba(255,255,255,1);
 
 $TEXT-BASE: rgba(0,0,0,1);
 $LINK-COLOR: lighten($TEXT-BASE, 20%);
+$LINK-HOVER-COLOR: lighten($TEXT-BASE, 50%);
 $TEXT-COLOR: lighten($TEXT-BASE, 30%);
 
 $TRANSITION-PERIOD: 0.1s;
@@ -57,10 +58,8 @@ a {
   &:visited {
     color: $LINK-COLOR;
   }
-
   &:hover {
-    box-shadow: 8px 8px 32px $TEXT-COLOR;
-    border-radius: 8px;
+    color: $LINK-HOVER-COLOR;
   }
 }
 
