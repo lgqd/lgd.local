@@ -22,6 +22,6 @@ permalink: '/'
   function show(next) {
     var imgElement = document.getElementById('home-image');
     imgElement.setAttribute('src', '{{ site.baseurl}}/assets/images/'+next+'.gif');
-    imgElement.setAttribute('onclick', 'show('+(next+1)%5+')');
+    imgElement.setAttribute('onclick', 'show('+(next+1)%4+')');
   }
 </script>
